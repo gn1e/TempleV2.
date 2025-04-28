@@ -1,0 +1,22 @@
+{
+  "name": "temple-backend",
+  "module": "src/index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "base64": "^2.1.0",
+    "bcrypt": "^5.1.1",
+    "chalk": "^5.3.0",
+    "fs": "^0.0.1-security",
+    "hono": "^4.6.4",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.1",
+    "path": "^0.12.7",
+    "uuid": "^10.0.0"
+  }
+}
